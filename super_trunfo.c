@@ -4,7 +4,7 @@ int main() {
     // Aviso ao usuário
     printf("=== Cadastro de Cartas - Super Trunfo de Cidades ===\n");
     printf("Atenção: Digite números SEM ponto como separador de milhar.\n");
-    printf("Exemplo correto: 1000   | Exemplo errado: 1.000\n");
+    printf("Exemplo correto: 1000 | Exemplo errado: 1.000\n");
 
     // Dados da carta 1
     char estado1;
