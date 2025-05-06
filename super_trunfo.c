@@ -33,7 +33,6 @@ int main() {
     printf("Código da carta (ex: A01): ");
     scanf("%s", codigo1);
 
-    while ((getchar()) != '\n');  // limpa o buffer antes de ler a string com espaços
 
     printf("Nome da cidade: ");
     scanf(" %[^\n]", nomeCidade1);
@@ -59,7 +58,6 @@ int main() {
     printf("Código da carta (ex: B02): ");
     scanf("%s", codigo2);
 
-    while ((getchar()) != '\n');  // limpa o buffer antes de ler a string com espaços
 
     printf("Nome da cidade: ");
     scanf(" %[^\n]", nomeCidade2);
